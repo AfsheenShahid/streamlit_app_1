@@ -2,10 +2,10 @@ import pandas as pd
 import streamlit as st
 from imdb import IMDb
 
-links_df = pd.read_csv("links.csv")
-movies_df = pd.read_csv("movies.csv")
-ratings_df = pd.read_csv("ratings.csv")
-tags_df = pd.read_csv("tags.csv")
+# links_df = pd.read_csv("links.csv")
+# movies_df = pd.read_csv("movies.csv")
+# ratings_df = pd.read_csv("ratings.csv")
+# tags_df = pd.read_csv("tags.csv")
 top_scores_df = pd.read_csv("top_score_df.csv")
 top_5_scores_df = pd.read_csv("top_5_score_df.csv")
 pulp_df = pd.read_csv("pulp_df.csv")
