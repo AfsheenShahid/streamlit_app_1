@@ -2,20 +2,20 @@ import pandas as pd
 import streamlit as st
 from imdb import IMDb
 
-links_df = pd.read_csv(r"C:\Users\shahi\Downloads\wbsflix-dataset\ml-latest-small\links.csv")
-movies_df = pd.read_csv(r"C:\Users\shahi\Downloads\wbsflix-dataset\ml-latest-small\movies.csv")
-ratings_df = pd.read_csv(r"C:\Users\shahi\Downloads\wbsflix-dataset\ml-latest-small\ratings.csv")
-tags_df = pd.read_csv(r"C:\Users\shahi\Downloads\wbsflix-dataset\ml-latest-small\tags.csv")
-top_scores_df = pd.read_csv(r"C:\Users\shahi\Downloads\top_score_df.csv")
-top_5_scores_df = pd.read_csv(r"C:\Users\shahi\Downloads\top_5_score_df.csv")
-pulp_df = pd.read_csv(https://github.com/AfsheenShahid/streamlit_app_1/blob/main/pulp_df.csv)
-shaw_df = pd.read_csv(r"C:\Users\shahi\Downloads\shaw_df.csv")
-In_b_df = pd.read_csv(r"C:\Users\shahi\Downloads\In_b_df.csv")
+links_df = pd.read_csv("links.csv")
+movies_df = pd.read_csv("movies.csv")
+ratings_df = pd.read_csv("ratings.csv")
+tags_df = pd.read_csv("tags.csv")
+top_scores_df = pd.read_csv("top_score_df.csv")
+top_5_scores_df = pd.read_csv("top_5_score_df.csv")
+pulp_df = pd.read_csv("pulp_df.csv")
+shaw_df = pd.read_csv("shaw_df.csv")
+In_b_df = pd.read_csv("In_b_df.csv")
 
-df_62_s= pd.read_csv(r"C:\Users\shahi\Downloads\df_62_s.csv")
-df_62_i= pd.read_csv(r"C:\Users\shahi\Downloads\df_62_i.csv")
-df_610_s= pd.read_csv(r"C:\Users\shahi\Downloads\df_610_s.csv")
-df_610_i= pd.read_csv(r"C:\Users\shahi\Downloads\df_610_i.csv")
+df_62_s= pd.read_csv("df_62_s.csv")
+df_62_i= pd.read_csv("df_62_i.csv")
+df_610_s= pd.read_csv("df_610_s.csv")
+df_610_i= pd.read_csv("df_610_i.csv")
 df =top_5_scores_df
 
 
