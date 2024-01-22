@@ -71,7 +71,7 @@ chosen_item = st.selectbox("Choose a movie genre",
              key='popularity-based',
              options=top_scores_df['new_tag'].unique(),
              index=None,
-             placeholder="Browse our library..."
+             # placeholder="Browse our library..."
 )
 
 placeholder_image_url = 'https://wallpapercave.com/wp/wp3160287.jpg'
