@@ -8,7 +8,7 @@ ratings_df = pd.read_csv(r"C:\Users\shahi\Downloads\wbsflix-dataset\ml-latest-sm
 tags_df = pd.read_csv(r"C:\Users\shahi\Downloads\wbsflix-dataset\ml-latest-small\tags.csv")
 top_scores_df = pd.read_csv(r"C:\Users\shahi\Downloads\top_score_df.csv")
 top_5_scores_df = pd.read_csv(r"C:\Users\shahi\Downloads\top_5_score_df.csv")
-pulp_df = pd.read_csv(r"C:\Users\shahi\Downloads\pulp_df.csv")
+pulp_df = pd.read_csv(https://github.com/AfsheenShahid/streamlit_app_1/blob/main/pulp_df.csv)
 shaw_df = pd.read_csv(r"C:\Users\shahi\Downloads\shaw_df.csv")
 In_b_df = pd.read_csv(r"C:\Users\shahi\Downloads\In_b_df.csv")
 
